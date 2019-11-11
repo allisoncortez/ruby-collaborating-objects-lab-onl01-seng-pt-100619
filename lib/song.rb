@@ -23,10 +23,10 @@ class Song
     #also think about what they want you to return at the end
   end
   
-  def self.artist_name(artist_name)
+  def self.artist_name(name)
     split_files = filename.split(" - ")
-    artist_name = split_files[1]
-    new_artist = self.new(artist_name)
+    name = split_files[1]
+    new_artist = self.new(name)
   end
   
 end
